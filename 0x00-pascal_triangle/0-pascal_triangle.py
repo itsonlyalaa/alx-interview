@@ -3,4 +3,6 @@
 
 
 def pascal_triangle(n):
+    "Returns a list of integers representing the Pascal Triangle"
+
 
