@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 """prime game"""
+
+
 def isWinner(x, nums):
     """A function that does the prime game"""
     if not nums or x < 1:
         return None
     n = max(nums)
-    flter = [True for _ in range (max(n + 1, 2))]
+    flter = [True for _ in range(max(n + 1, 2))]
     for i in range(2, int(pow(n, 0.5)) + 1):
         if not flter[i]:
             continue
